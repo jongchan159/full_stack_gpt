@@ -1,0 +1,6 @@
+가상환경을 만드는 이유는 패키지를 격리시키기 위함
+
+git init .  // 깃에 넣기
+python3 -m venv venv    // python3로 할 것
+.gitignore에 /venv  // 가상환경 변경사항 기입 제거
+source venv/bin/activate    // 가상환경 활성화(진입)
